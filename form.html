@@ -6,7 +6,28 @@
   </head>
   <body>
     <form class="" action="index.html" method="post">
-      <input type="text" name="" value="" placeholder="Full Name">
+
+      <div class="">
+        <input type="text" name="name" value="" placeholder="Full Name">
+        <input type="password" name="password" value="" placeholder="Password">
+      </div>
+
+      <div class="">
+        Favourite color?
+        <input type="radio" name="color" value="red"> Red
+        <input type="radio" name="color" value="green"> Green
+        <input type="radio" name="color" value="other"> Other
+      </div>
+
+      <div class="">
+      <input name="country" list="countries" value="" placeholder="Country">
+      <datalist id="countries">
+        <option value="Afghanistan">
+        <option value="India">
+        <option value="Other">
+      </datalist>
+      </div>
+
       <button type="button" name="button">Submit!</button>
     </form>
   </body>
